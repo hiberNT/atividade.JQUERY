@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;   
+}
+
+body{
+    background-color: rgba(245, 245, 245, 0.878);
+}
+
+header{
+    background-color: rgb(136, 173, 220);
+    display: flex;
+    padding: 16px 0 ;
+    border-bottom: solid 16px #7a9ecce3;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase ;
+    font-style: italic;
+}
+
+header button {
+    background-color:  rgb(185, 205, 230);
+    margin-left: 20px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+
+form{
+    text-align: center;
+    background-color:  rgb(157, 198, 249);
+    padding: 20px;
+    display: none;
+}
+
+form input,button {
+    padding: 7px;
+}
+
+#CANCELAR {
+    background-color: red;
+}
+
+ul {
+    text-align: center;
+    margin-top: 30px ;
+    cursor: pointer;
+}
+
+
+
+
+.tarefaconcluido{
+    text-decoration: line-through;
+}
+
+.btapaga {
+    color: rgba(255, 0, 0, 0.638);
+    border: none;
+    margin-left: 50px;
+
+}
+
